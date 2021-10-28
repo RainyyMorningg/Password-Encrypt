@@ -13,8 +13,8 @@ chr_list = [chr(33+i) for i in range(90)]
 
 # Static key
 key = 77
-# A random key could be used for higher security, but the decrypter would be much more
-# advanced and complex.
+# Multiple keys could be used but but the encryption/decryption 
+# would ahve to be placed inside a for loop each.
 
 print(ind_password)
 
